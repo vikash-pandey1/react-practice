@@ -10,7 +10,6 @@ function App() {
 
   const addValue = ()=>{
     setCounter(counter+1)
-    console.log('clicked')
   }
   const delValue = ()=>{
     setCounter(counter-1)
