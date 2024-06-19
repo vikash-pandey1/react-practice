@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -9,7 +7,16 @@ function App() {
   // useState gives us two value first is variable second is function
 
   const addValue = ()=>{
-    setCounter(counter+1)
+    // setCounter(counter+1)
+
+
+    // setCounter(counter=counter+1);   add value 1 to 4
+    // setCounter(counter=counter+1);
+    // setCounter(counter=counter+1);
+    // setCounter(counter=counter+1);
+
+
+
   }
   const delValue = ()=>{
     setCounter(counter-1)
