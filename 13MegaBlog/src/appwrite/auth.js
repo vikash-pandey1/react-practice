@@ -1,10 +1,10 @@
-import config from "../config/config.js";
+import config from "../conf/conf.js";
 
 import { Client, Account, ID } from "appwrite"
 
 export class AuthService {
     client = new Client();
-    account
+    account;
 
     constructor() {
         this.client 
