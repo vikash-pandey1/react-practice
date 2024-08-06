@@ -61,8 +61,7 @@ function PostForm({ post }) {
         .replace(/^[a-zA-Z\d\s]+/g, "-").replace(/\s/g,'-')
     
         return ''
-     }, []);
-
+     }, [])
      React.useEffect(()=>{
         const subscription = watch((value,{name})=>{
             if(name==='title'){
@@ -110,7 +109,7 @@ function PostForm({ post }) {
                             alt={post.title}
                             className="rounded-lg"
                         />
-                    </div>
+                    </div> 
                 )}
                 <Select
                     options={["active", "inactive"]}
